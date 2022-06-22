@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Main" />
+    <module name="forkenstein" />
+    <option name="VM_PARAMETERS" value="-Dotel.metrics.exporter=otlp -Dotel.metric.export.interval=1000 -javaagent:$PROJECT_DIR$/../mesmer/opentelemetry-javaagent-1.13.1.jar -Dotel.service.name=mesmer-zio -Dotel.javaagent.extensions=$PROJECT_DIR$/../mesmer/otel-extension/target/scala-2.13/mesmer-otel-extension_2.13-0.7.0+14-a2bcbabd+20220621-1432-SNAPSHOT-assembly.jar -Dotel.javaagent.debug=true" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

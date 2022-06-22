@@ -1,0 +1,12 @@
+*.class
+*.log
+target/
+.bsp/
+.idea/
+!.idea/runConfigurations/Main.xml
+*.jar
+*.log.*
+*.sh
+.vscode/
+.metals/
+.bloop/
