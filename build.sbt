@@ -7,8 +7,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "forkenstein",
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio" % "2.0.0-RC6",
-      "dev.zio" %% "zio-test" % "2.0.0-RC6" % Test
+      "dev.zio" %% "zio"      % "2.0.0",
+      "dev.zio" %% "zio-test" % "2.0.0" % Test
     ),
     testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
   )
